@@ -24,7 +24,7 @@
 		</div>
 		<div class="item3">
 		<p>This is my main page created by Jacob Broomfield.</p>
-		<p>My webpage will serve as a portfolio for future projects.</p>
+		<p>My webpage will serve as a portfolio for all my completed and future projects.</p>
 		
 		<h2 id="datemod">Last date modified: </h2> 
 		<p id="lastDateMod"></p>
@@ -34,20 +34,18 @@
 			document.getElementById("lastDateMod").innerHTML = display;
 		</script>
 		
-		<h2>Information 1</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h2>Sudoku solver</h2>
+		<p>Description and any pseudocode/images here.</p>
 		
-		<h2>Information 2</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h2>Solder unit armoury</h2>
+		<p>Nothing real just an Object Oriented Program i made for fun. 
+			further description, pseudocode, UMLs and images to come.</p>
 		
-		<h2>Information 3</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		
-		<h2>Grade prediction:</h2>
+		<h2>Little demonstration of Javascript use:</h2>
 		<form>
 			Full name: <input type="text" name="name" size="16" />
 			<br />
-			<label for="grade">Predicted grade:</label>
+			<label for="grade">Pick a number for a fun little message:</label>
 			<select name="grade" id="grade">
 				<option value="0">0</option>
 				<option value="1">1</option>
@@ -78,35 +76,34 @@
 				return display;
 			}
 			
-			function gradeCalc() {
-				let grade = document.forms[0].grade.value;
-				let percentage = grade*20;
-				let display = percentage + "%";
-				switch (grade) {
+			function messageSender() {
+				let msgNumber = document.forms[0].grade.value;
+				let display = "You chose the number " + msgNumber + "! ";
+				switch (msgNumber) {
 				case "0":
-					display = display + "?!? Surely not!";
+					display = display + "Are you enjoying your stay?";
 					break;
 				case "1":
-					display = display + "?? Come on, you can do better!";
+					display = display + "Movie reccomendation? I love star wars III.";
 					break;
 				case "2":
-					display = display + "? Im sure you will get more.";
+					display = display + "You should take a trip to the lake district! Black moss pot is nice.";
 					break;
 				case "3":
-					display = display + "? Not bad, but lets try go higher.";
+					display = display + "Why would you choose number 3!! Nooo";
 					break;
 				case "4":
-					display = display + "! Thats great, almost there!";
+					display = display + "Here is a challenge, learn to solve a rubix cube!";
 					break;
 				case "5":
-					display = display + "!! Amazing!";
+					display = display + "Heres a problem to solve, there are 12 people on an island with nithing but a seesaw. They all weigh exactly the same except for 1 who is slightly heavier or slightly lighter than the rest. Try find out who it is and if they are slightly heavier or lighter but you can only use the seesaw 3 times.";
 				}
 				return display;
 			}
 			
 			function displayMessage() {
 				let name = document.forms[0].name.value;
-				alert(timeOfDay() + name + "!\n" + gradeCalc());
+				alert(timeOfDay() + name + "!\n" + messageSender());
 			}
 		</script>
 		
