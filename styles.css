@@ -2,7 +2,7 @@
 	grid-area: header; 
 	font-family: Arial;
 	-webkit-text-fill-color: white;
-	background-image: url(https://t4.ftcdn.net/jpg/06/58/73/43/240_F_658734324_IJIkniHsPQqJ4bKZCFhl1EwxYTCv0jdM.jpg);
+	background-image: <img src="SudokuPseudocode.png" alt="">
 	background-size: cover;
 	background-position: center;
 	height: 300px;
