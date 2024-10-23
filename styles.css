@@ -2,7 +2,7 @@
 	grid-area: header; 
 	font-family: Arial;
 	-webkit-text-fill-color: white;
-	background-image: url("PageBanner.jpg");
+	background-image: url("PageHeader.jpg");
 	background-size: cover;
 	background-position: center;
 	
