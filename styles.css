@@ -86,7 +86,7 @@ li a:hover:not(.active) {
 	'nav nav nav nav nav nav'
     'main main main main main main';
   gap: 0%;
-  padding: 4px;
+  padding: 0px;
   background-color: #414342;
 }
 
