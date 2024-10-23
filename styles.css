@@ -100,7 +100,7 @@ li a:hover:not(.active) {
 	font-family: helvetica;
 }
 
-@media (min-width: 600px) and (max-width: 850px) { 
+@media (min-width: 600px) and (max-width: 1000px) { 
 	.item1 { 
 		height: 200px;
 	}
