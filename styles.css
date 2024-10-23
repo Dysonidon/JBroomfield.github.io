@@ -86,12 +86,12 @@ li a:hover:not(.active) {
 	'nav nav nav nav nav nav'
     'main main main main main main';
   gap: 0%;
-  padding: 4px;
+  padding: 0px;
   background-color: #414342;
 }
 
 .grid-container > div {
-  padding: 4px 0;
+  padding: 0px 0;
   font-size: 30px;
 }
 
