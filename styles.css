@@ -93,7 +93,6 @@ li a:hover:not(.active) {
 .grid-container > div {
   padding: 4px 0;
   font-size: 30px;
-  background-color: #414342;
 }
 
 #datemod{
