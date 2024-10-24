@@ -13,6 +13,7 @@
 .item2 { 
 	grid-area: nav; 
 	background-color: #303030;
+	padding: 4px;
 }
 
 .item3 { 
@@ -91,7 +92,7 @@ li a:hover:not(.active) {
 }
 
 .grid-container > div {
-  padding: 4px 0;
+  padding: 0px 0;
   font-size: 30px;
 }
 
