@@ -75,10 +75,12 @@ form {
 	font-family: Helvetica;
 }
 
-li a:hover:not(.active) {
+li a:hover {
 	background-color: white;
 	color: #373839;
 }
+
+li a.ac
 
 .grid-container {
   display: grid;
