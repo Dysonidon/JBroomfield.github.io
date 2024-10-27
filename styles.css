@@ -67,7 +67,7 @@ li a {
 	color: white;
 	font-family: Helvetica;
 	padding: 16px;
-    float: left;
+    	float: left;
 }
 
 form {
@@ -97,7 +97,7 @@ li a:hover:not(.active) {
 }
 
 .grid-container > div {
-  padding: 4px 0;
+  padding: 0px 0;
   font-size: 30px;
 }
 
