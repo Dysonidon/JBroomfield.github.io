@@ -1,13 +1,12 @@
 .item1 { 
 	grid-area: header; 
 	font-family: Arial;
-	-webkit-text-fill-color: white;
 	background-image: url("PageHeader.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 300px;
 	text-align: center;
-	background-color: #1fafb6;
+	
 }
 
 .item2 { 
