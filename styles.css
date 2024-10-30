@@ -68,19 +68,23 @@ li {
 	font-size: 20px;
 	text-align: left;
 	font-family: helvetica;
+	float: left;
 }
 
 ul {
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 li a {
 	display: block;
 	color: white;
 	font-family: Helvetica;
-	padding: 16px;
-    	float: left;
+	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
 }
 
 li a:hover:not(.active) {
