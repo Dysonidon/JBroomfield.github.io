@@ -115,16 +115,20 @@ form {
 	.item1 { 
 		height: 200px;
 	}
-	img {
+	
+	/*img {
 		width: 576px;
 		height: 765px;
-	}
+	}*/
+	
 	h1 { 
-			font-size: 40px;
-	   }	   
+		font-size: 40px;
+	}	
+	
 	h2 {
 		font-size: 21px;
 	}
+	
 	p {
 		font-size: 18px;
 	}
@@ -154,17 +158,21 @@ form {
 	.item1 { 
 		height: 100px;
 	}
-	img {
+	
+	/*img {
 		width: 432px;
 		height: 574px;
-	}
+	}*/
+	
 	h1 { 
 		font-size: 25px;
 	}
+	
 	h2 {
 		font-size: 19px;
 		border-top: 1px solid #000435;
 	}
+	
 	p {
 		font-size: 16px;
 	}
@@ -180,9 +188,11 @@ form {
 	li {
 		font-size: 16px;
 	}
+	
 	li a {
 		padding: 12px;
 	}
+	
 	form {
 		font-size: 16px;
 	}
